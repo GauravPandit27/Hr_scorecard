@@ -6,8 +6,8 @@ import re
 
 st.set_page_config(page_title="Employee Scorecard Generator", layout="wide")
 
-DATA_FILE = r"c:\Users\ADMIN\Desktop\demo\project\CPF Final Data.xlsx"
-TEMPLATE_FILE = r"c:\Users\ADMIN\Desktop\demo\project\SAMPLE CPF Scorecard- APP Dev-1.xlsx"
+DATA_FILE = "CPF Final Data.xlsx"
+TEMPLATE_FILE = "SAMPLE CPF Scorecard- APP Dev-1.xlsx"
 
 def get_col_name(df, keyword):
     """Find a column in df that contains the keyword (case insensitive)."""
